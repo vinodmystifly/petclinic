@@ -32,7 +32,7 @@ jobs:
           tar -xzvf facetsctl-v1.0.8-5508370538-30c7d95-linux-x64.tar.gz
 
       - name: Login to facetsctl
-        run: ./facetsctl/bin/facetsctl login -u ${{ secrets.FACETS_USERNAME }} -t ${{ secrets.FACETS_TOKEN }} -c https://pwc.console.facets.cloud/
+        run: ./facetsctl/bin/facetsctl login -u ${{ secrets.FACETS_USERNAME }} -t ${{ secrets.FACETS_TOKEN }} -c https://pwc.console.facets.cloud
 
       - name: Push Image using facetsctl
         run: ./facetsctl/bin/facetsctl push -i user/petclinic:${{ github.sha }} -a petclinic -e ${{ github.sha }} --registration-type=RELEASE_STREAM --registration-value=DEV
