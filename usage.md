@@ -11,7 +11,7 @@ The Petclinic application is a Spring Boot application that runs on port 8080.
 To run the Petclinic application with Postgres, you need to set the following environment variables:
 
 - `SPRING_PROFILES_ACTIVE=postgres`
-- `POSTGRES_URL=jdbc:postgresql://<POSTGRES_HOST>/petclinic`
+- `POSTGRES_URL=jdbc:postgresql://<POSTGRES_HOST>/postgres`
 - `POSTGRES_USER=<POSTGRES_USERNAME>`
 - `POSTGRES_PASS=<POSTGRES_PASSWORD>`
 
