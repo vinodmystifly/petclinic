@@ -11,7 +11,7 @@
       },
       "deploy": {
         "artifacts": [
-          "target/*.jar"  // Path to your Spring Boot application JAR
+          "target/*.jar"
         ],
         "main": "org.springframework.samples.petclinic.PetClinicApplication"
       }
