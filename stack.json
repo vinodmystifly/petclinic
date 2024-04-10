@@ -2,7 +2,7 @@
   "version": "0.2",
   "services": [
     {
-      "name": "petclinic-app",
+      "name": "petclinic",
       "type": "java",
       "build": {
         "commands": [
