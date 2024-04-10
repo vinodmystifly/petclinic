@@ -6,7 +6,7 @@
       "type": "java",
       "build": {
         "commands": [
-          "./mvnw clean package"
+          "./mvnw package"
         ]
       },
       "deploy": {
