@@ -15,7 +15,6 @@
         ],
         "main": "org.springframework.samples.petclinic.PetClinicApplication"
       },
-      ,
       "env": {
         "SPRING_PROFILES_ACTIVE": "postgres",
         "POSTGRES_URL": "${postgres.petclinic-db.out.interfaces.writer.host}/postgres",
